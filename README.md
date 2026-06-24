@@ -2,7 +2,7 @@
 
 A deep learning app that predicts the next word(s) from a seed phrase — trained on a dataset of famous quotes by Einstein, J.K. Rowling, Jane Austen, and more.
 
-Built with **LSTM (Keras)** + **Streamlit**.
+Built with **LSTM (Tensorflow)** + **Streamlit**.
 
 ---
 
