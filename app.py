@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import pickle
 import os
-from tf_keras.models import load_model
-from tf_keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Base directory — same folder as this script
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -252,4 +252,3 @@ if st.session_state.generated:
             st.session_state.candidates = []
             st.session_state.seed       = ""
             st.rerun()
-
