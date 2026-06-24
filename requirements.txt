@@ -1,3 +1,5 @@
 streamlit
-tensorflow==2.17.1
+keras
+tf-keras
 numpy
+h5py
